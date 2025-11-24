@@ -48,43 +48,33 @@ c.File handling
 
 To follow or modify the code, you should know:
 
-a.Loops
+#### a.Loops
 for, while
 
-b.Arrays
+#### b.Arrays
 
 Used to store:
 
-names[]
-ages[]
-phones[]
-addresses[]
-IDs[]
+names[],ages[],phones[],addresses[],IDs[]
 
-c.String functions
+#### c.String functions
 
 Examples used:
 
-fgets()
-strncpy()
-strtok()
-strlen()
+fgets(),strncpy(),strtok(),strlen()
 
-d.Conditionals
+#### d.Conditionals
 
 if, else, switch
 
-e.File Handling
+#### e.File Handling
 
 The program reads/writes a file:
 
 teachers_db.txt
 
 Functions used:
-fopen()
-fgets()
-fprintf()
-fclose()
+fopen(),fgets(),fprintf(),fclose()
 
 This allows data to be saved permanently.
 
