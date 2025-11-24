@@ -7,6 +7,110 @@ This project is a simple Teacher Management System developed using basic C progr
 To ensure data persistence, the system stores all teacher records in a text file (teachers_db.txt). When the program starts, it automatically loads the previously saved data from the file, allowing users to continue from where they left off. Any new changes, such as adding, updating, or deleting profiles, are immediately saved to the file.
 The project demonstrates core programming concepts like file handling, data manipulation using arrays, and basic user input validation. It provides a practical example of how structured data can be managed in C without using advanced features like structures or dynamic memory allocation.
 
+## Fundamental Requirements of the Code
+### 1. A C Compiler
+
+You must have a working C compiler such as:
+
+a.GCC (Recommended)
+b.Clang
+c.MinGW (Windows)
+d.Turbo C (not recommended but possible)
+This is required to compile .c files into an executable
+
+### 2. A Text Editor or IDE
+
+You need a place to write and edit the code, such as:
+
+a.Notepad / Notepad++
+        or
+b.VS Code (best option)
+        or
+c.Code::Blocks
+        or
+d.Dev C++
+        or 
+e.CLion
+        or
+f.GCC terminal editor (nano, vim)
+
+### 3. Basic C Libraries
+
+The code only uses standard libraries available in all C compilers:
+
+These libraries provide:
+
+a.Input/output functions
+b.String manipulation
+c.File handling
+
+### 4. Understanding of Basic C Concepts
+
+To follow or modify the code, you should know:
+
+a.Loops
+for, while
+
+b.Arrays
+
+Used to store:
+
+names[]
+ages[]
+phones[]
+addresses[]
+IDs[]
+
+c.String functions
+
+Examples used:
+
+fgets()
+strncpy()
+strtok()
+strlen()
+
+d.Conditionals
+
+if, else, switch
+
+e.File Handling
+
+The program reads/writes a file:
+
+teachers_db.txt
+
+Functions used:
+fopen()
+fgets()
+fprintf()
+fclose()
+
+This allows data to be saved permanently.
+
+### 5. Basic Terminal/Command-Line Usage
+
+You need to know how to:
+
+Compile:
+gcc teacher_manager.c -o teacher_manager
+
+Run:
+Windows:
+teacher_manager.exe
+
+Mac/Linux:
+./teacher_manager
+
+
+### 6. Storage File (Automatically Created)
+The program requires a text file to store records:
+teachers_db.txt
+
+a.If it doesn’t exist, the program creates it
+b.If it exists, it loads existing teacher data
+
+
 ## Features of the Project:
 ### 1. Create Teacher Profile
 
